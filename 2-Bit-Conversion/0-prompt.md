@@ -29,7 +29,7 @@ console.log(findNumBits(4, 4), 'should be 0');
 console.log(findNumBits(1, -1), 'should be 31 (1 less than the 32 bits of this signed int)');
 ```
 
-Hint (text is white, highlight to see it):
+Hint (text is white, highlight to see it (but it's not styled in github because of [GFM](https://help.github.com/categories/writing-on-github/))):
 
  <span style="color:white">
 Don't forget that there are zero-filling and sign-propagating bit shift operations.  One might lead to infinite loops in some cases...
