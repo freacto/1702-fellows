@@ -14,7 +14,7 @@ Provide an efficient algorithm for determining all the unique visitors to your w
 
 
 <details>
-  <summary>### Once they get an answer</summary>
+  <summary>Once they have an answer</summary>
   <p> Tell them the text file is going to be massive. really big. 1TB. if they think something is efficient, tell them it's some million billion lines of user logs.
 They'll probably have already said they want to be splicing the text on every new line just fine, so ask them the time and space complexity of their answer.
   (for example: They most likely opted for some hash table, which is fine. They should be able to explain clearly that the space is going to be O(N) where N is the number of uuid's, and that time is going to be O(N*M) where N is the number of lines and M is the number of digits in the id.)
