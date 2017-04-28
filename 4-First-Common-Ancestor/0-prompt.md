@@ -10,14 +10,15 @@ There's a more optimized solution beyond the scope of the hints provided below i
 
 ### Example:
 
-> The tree:  [6]
+The tree:  
+             [6]
               /\
             [2] [5]
            / \  / \
          [4][9][1][8]
 
-> [4], [1] => [6]
-> [4], [9] => [2] (not [6], because [2] is more directly related)
+[4], [1] => [6]
+[4], [9] => [2] (not [6], because [2] is more directly related)
 
 ### Function signature:
 
