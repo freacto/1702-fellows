@@ -20,11 +20,11 @@ They'll probably have already said they want to be splicing the text on every ne
   (for example: They most likely opted for some hash table, which is fine. They should be able to explain clearly that the space is going to be O(N) where N is the number of uuid's, and that time is going to be O(N*M) where N is the number of lines and M is the number of digits in the id.)
   What happens if we actually don't have that space in memory?
   <details>
-    <summary>tree?</summary>
+    <summary>other data structures?</summary>
     <p>A way to save space on storing all of those id's would be using a prefix tree / trie. Especially as the number grows larger, you'll shave off a factor of N (uhm cannot confirm the math for 100% but i'll take interview cake's word for it)
   </p></details>
   <details>
-    <summary>storing outside the server</summary>
+    <summary>storing our data</summary>
     <p>So if you're not keeping some javascript object because this thing is massive... you're using a database, right? What does this mean for your solution and the time it takes?
       <details>
       <summary>push them to answer</summary>
