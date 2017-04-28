@@ -38,7 +38,8 @@ const returnFirstCommonAncestor = (root, p, q) => {
       <p>So you'll start with the root... checking if it is p... and then finish looking for it in the rest of the tree somehow. And then we'll also be checking nodes if they are q... and how do we know which path it'll turn up in?
         <details>
         <summary>hint</summary>
-        <p>If you haven't said recursion by now, you should go back and implement binary tree and a search method for it. It'd be helpful to have some kind of function that checks if the left or right contains a given node. If you're stuck, try making that helper function.
+        <p>If you haven't said recursion by now, you should familiarize yourself with implementing binary tree and a search method for it. 
+If you have though recursion: It'd be helpful to have some kind of function that checks if the left or right contains a given node. If you're stuck, try making that helper function.
           <details>
           <summary>hint</summary>
           <p>The node at which p and q are contained in opposite sides respectively is the the node you should return.
