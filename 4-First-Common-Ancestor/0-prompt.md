@@ -9,16 +9,16 @@ Implement an algorithm to find the first common ancestor of 2 given nodes on a b
 There's a more optimized solution beyond the scope of the hints provided below in CtCI.
 
 ### Example:
+- The tree:  
 
-The tree:  
              [6]
               /\
             [2] [5]
            / \  / \
          [4][9][1][8]
 
-[4], [1] => [6]
-[4], [9] => [2] (not [6], because [2] is more directly related)
+  [4], [1] => [6]
+  [4], [9] => [2] (not [6], because [2] is more directly related)
 
 ### Function signature:
 
